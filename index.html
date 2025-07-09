@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsPulse - Stay Informed</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-newspaper"></i>
+                    <h1>NewsPulse</h1>
+                </div>
+                <div class="search-container">
+                    <input type="search" id="search" placeholder="Search for news...">
+                    <button id="btn">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Stay Informed with Real-Time News</h2>
+            <p>Discover the latest headlines and breaking stories from around the world. Search any topic to get up-to-date information.</p>
+            
+            <div class="trending-topics">
+                <div class="topic" data-topic="technology">Technology</div>
+                <div class="topic" data-topic="business">Business</div>
+                <div class="topic" data-topic="health">Health</div>
+                <div class="topic" data-topic="sports">Sports</div>
+                <div class="topic" data-topic="entertainment">Entertainment</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="loader" id="loader">
+            <i class="fas fa-spinner"></i>
+        </div>
+        
+        <div id="main"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About NewsPulse</h3>
+                    <p>NewsPulse delivers the latest and most relevant news from around the world. Our mission is to keep you informed with accurate and timely information.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Health</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>News Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">World News</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Entertainment</a></li>
+                        <li><a href="#">Science</a></li>
+                        <li><a href="#">Technology</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 NewsPulse. All rights reserved. Designed with <i class="fas fa-heart" style="color: var(--accent);"></i></p>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
