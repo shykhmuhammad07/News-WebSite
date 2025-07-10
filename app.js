@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     })
                     .catch((error) => {
                         loader.style.display = 'none';
-                        console.log('Fetching data error', error);
                         getDiv.innerHTML = `
                             <div class="error-message">
                                 <h3>Failed to Load News</h3>
